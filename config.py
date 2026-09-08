@@ -37,14 +37,14 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Jani-Music/Ora-Repo",
+    "https://github.com/Jani-RP/New",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Jani_Ki_Jaanu")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Ora_Network")
 SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+xnUCDYVIAONlMzNl")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
@@ -89,12 +89,12 @@ autoclean = []
 confirmer = {}
 file_cache: dict[str, float] = {}
 
-START_IMG_URL = ["https://files.catbox.moe/kp9sex.jpg",
-                 "https://files.catbox.moe/kp9sex.jpg",
-                 "https://files.catbox.moe/kp9sex.jpg"]
+START_IMG_URL = ["https://litter.catbox.moe/9cauu6.jpg",
+                 "https://litter.catbox.moe/9cauu6.jpg",
+                 "https://litter.catbox.moe/9cauu6.jpg"]
     
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://files.catbox.moe/kp9sex.jpg"
+    "PING_IMG_URL", "https://litter.catbox.moe/9cauu6.jpg"
 )
 PLAYLIST_IMG_URL = "https://graph.org/file/c95a687e777b55be1c792.jpg"
 STATS_IMG_URL = "https://telegra.ph/file/edd388a42dd2c499fd868.jpg"
