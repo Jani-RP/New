@@ -17,7 +17,7 @@ LOGGER = logging.getLogger(__name__)
 
 # ✅ ShrutiBots API Setup
 API_URL = os.environ.get("SHRUTI_API_URL", "https://api.shrutibots.site")
-API_KEY = os.environ.get("SHRUTI_API_KEY", "ShrutiBotsGYMPaiuBZ8toTyJvH0pl")
+API_KEY = os.environ.get("SHRUTI_API_KEY", "ShrutiBotsvjDkg9kG0wUtcc5oQp9l")
 
 def time_to_seconds(time_str):
     stringt = str(time_str)
